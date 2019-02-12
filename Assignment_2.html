@@ -1,0 +1,153 @@
+<html>
+	<head>
+
+		<title> 
+		Online_Registration   <!-- displays the name on browser-->
+		</title>	
+	</head>
+	<body>
+	
+		<div class="topnav">                                   <!--for navigating icons on web page-->
+		    <a href="www.google.com">Home </a> |
+		    <a href="www.bing.com">Products</a> |
+		    <a href="www.kelltontech.com">Company</a> |
+		    <a href="www.TOI.com">Blog</a> |
+		    <input type="text" placeholder="Search..">
+	    </div>
+	 	<img src= c:\users\user\desktop\logo1.jfif>              <!-- inserts logo onto page-->
+
+			<h1><center>ONLINE REGISTRATION</center></h1>
+
+					<p>Welcome to online portal of Hotel Booking. This startup offers new and extravagant opportunities for travellers and tourists. We have the complete package of treasure. We deal from food, groceries to hotels. This page will lead you to online registration for the same. 
+					A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator and other kitchen facilities, upholstered chairs, a flat screen television Welcome to our family and see you onboard. Just one more step to meet us. 
+					</p>
+					Complete the below steps. 
+				
+
+		<table cellpadding="15">       <!--table used for proper identation of forms-->
+			<form>                     <!--form opening tag-->
+				<tr>                   <!--opening tag for table row for 1st row-->
+					<td>               <!--table data opening tag-->
+						Title
+					</td>
+
+					<td>         
+						<select>                              <!--for inserting up-down select box-->
+							<option value="Mr.">Mr.</option>          
+							<option value="Mrs.">Mrs.</option>
+							<option value="Ms.">Ms.</option>
+					    </select>
+				    </td>
+			    </tr>
+
+				<tr>
+					<td>
+					    First Name
+				    </td>
+
+				    <td>
+				 	    <input type="text" name="First Name" placeholder="First Name">     <!--for inserting text box type 'text' used-->
+				    </td>
+				</tr>
+
+				<tr>
+					<td>
+					    Last Name
+				    </td>
+				    <td>
+				    	<input type="text" name="Last Name" placeholder="Last Name">
+				    </td>
+				</tr>    
+
+				<tr>
+					<td>
+						DOB
+					</td>
+					<td>
+			 			<input type="date">      <!--inserts calender for Date of Birth-->
+				    </td>
+			  	</tr>
+
+			    <tr>
+				    <td>
+				    	Full Address
+				    </td>
+			        <td>
+			        	<textarea rows="6" columns="10"></textarea>        <!--large text box using textarea-->
+			        </td>
+			    </tr>
+
+			    <tr>
+			    	<td>
+			    		Requirement
+			    	</td>
+			    	<td>
+			    		<textarea rows="7" columns="12"></textarea>
+			        </td>
+			    </tr>
+
+			    <tr>
+					<td>
+						House Size
+					</td>
+					<td>	
+			    <input type="radio" name="Size" value="1-BHK">1 BHK<br>       <!--inserts radio buttons using type 'radio'-->
+			    <input type="radio" name="Size" value="2-BHK">2 BHK<br>
+			    <input type="radio" name="Size" value="3-BHK">3 BHK<br>
+			    <input type="radio" name="Size" value="4-BHK">4 BHK and more<br>
+			        </td>
+			    </tr>
+
+			    <tr>
+			    	<td>
+			    		Members in family                        <!--type number used for top and bottom selection -->
+			    	</td>
+			    	<td>
+			    		<input type="Number" min="1" max="100">
+			    	</td>
+			    </tr>
+
+		    	<tr>
+		    		<td>
+		    			<input type="checkbox" name= "checkbox">Agree with Terms and Conditions<br>  <!--checkbox-->
+		        	</td>
+		        </tr>
+			    </table>
+			</form>
+		<button type="submit" form="form1" value="Register">Register</button>   <!--buttons are inserted-->
+		<button type="draft" form="form2" value="Draft">Save Draft</button>
+  	</body>
+	
+</html>
+
+	<style type="text/css">           <!--styling of registration page-->
+	body{
+		font-family: Arial;
+		}
+
+		img
+		{
+
+	      display:block;                 <!-- for setting up logo styling-->
+	      margin-left: 10px;
+	      margin-right: 30px;
+	      height: 120px;
+		}
+		.topnav
+		{
+			overflow: hidden;                 <!-- for home, products etc icons on screen-->
+			padding-left: 10px;
+			padding-top: 13px;
+			padding-bottom: 12px;
+			border-right: 100px;
+		}
+		.topnav input[type=text] {     
+	        float: right;                     <!-- for search box-->
+	        padding: 6px;
+	        border: all;
+	        margin-top: 8px;
+	        margin-right: 16px;
+	        font-size: 14px;
+	}
+
+	</style>
